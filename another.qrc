@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/new/1">
+        <file>others/1.jpg</file>
+        <file>others/2.jpg</file>
+        <file>others/findback.jpg</file>
+        <file>others/backgroundimag.jpg</file>
+    </qresource>
+</RCC>

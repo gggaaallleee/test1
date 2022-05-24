@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>955</width>
+    <height>765</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>961</width>
+     <height>751</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#frame{
+    background-image: url(:/new/prefix2/others/background.png);
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="exitButton">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>570</y>
+      <width>201</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>汉仪秦川飞影W</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+   border-radius: 10px;
+   border: 3px groove red;
+   background-color:rgba(255,0,127,0.7);;
+   color:rgba(255, 255, 255,0.5);
+   
+}
+QPushButton:hover{
+   border-radius: 10px;
+   border: 3px groove white;
+   background-color:rgba(255,0,127,1);;
+   color:rgb(255, 255, 255);
+}
+QPushButton:pressed{
+   border-radius: 10px;
+   border: 3px groove black;
+   background-color:rgba(255,0,127,0.9);;
+   color:rgba(255, 255, 255,0.9);
+}</string>
+    </property>
+    <property name="text">
+     <string>退出</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>120</y>
+      <width>631</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>汉仪秦川飞影W</family>
+      <pointsize>30</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#label{
+    color:rgb(170, 0, 127);
+   border-radius: 10px;
+   border: 3px groove purple;
+}</string>
+    </property>
+    <property name="text">
+     <string>教职工信息管理系统菜单</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="findButton">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>410</y>
+      <width>201</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>汉仪秦川飞影W</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+   border-radius: 10px;
+   border: 3px groove red;
+   background-color:rgba(255,0,127,0.7);;
+   color:rgba(255, 255, 255,0.5);
+   
+}
+QPushButton:hover{
+   border-radius: 10px;
+   border: 3px groove white;
+   background-color:rgba(255,0,127,1);;
+   color:rgb(255, 255, 255);
+}
+QPushButton:pressed{
+   border-radius: 10px;
+   border: 3px groove black;
+   background-color:rgba(255,0,127,0.9);;
+   color:rgba(255, 255, 255,0.9);
+}</string>
+    </property>
+    <property name="text">
+     <string>数据查询及统计</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="changeButton">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>260</y>
+      <width>201</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>汉仪秦川飞影W</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+   border-radius: 10px;
+   border: 3px groove red;
+   background-color:rgba(255,0,127,0.7);;
+   color:rgba(255, 255, 255,0.5);
+   
+}
+QPushButton:hover{
+   border-radius: 10px;
+   border: 3px groove white;
+   background-color:rgba(255,0,127,1);;
+   color:rgb(255, 255, 255);
+}
+QPushButton:pressed{
+   border-radius: 10px;
+   border: 3px groove black;
+   background-color:rgba(255,0,127,0.9);;
+   color:rgba(255, 255, 255,0.9);
+}</string>
+    </property>
+    <property name="text">
+     <string>数据修改</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

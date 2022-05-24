@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mhfind</class>
+ <widget class="QWidget" name="mhfind">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>963</width>
+    <height>677</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLineEdit" name="ffindlineEdit">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>80</y>
+     <width>461</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪秦川飞影W</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>点击表头可以排序哟</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="mhfindButton">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>170</y>
+     <width>141</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪秦川飞影W</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>模糊查找</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="returnButton">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>610</y>
+     <width>141</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪秦川飞影W</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="scomboBox">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>80</y>
+     <width>331</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪秦川飞影W</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>请选择模糊查询的根据</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>姓名</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>性别</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>工号</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>联系电话</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>所在学院</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>系</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学历</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>180</y>
+     <width>681</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪秦川飞影W</family>
+    </font>
+   </property>
+   <row>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>3</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>4</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>5</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>6</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>7</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>8</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>9</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>10</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>11</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>姓名</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>性别</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>工号</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>联系电话</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>系</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>学历</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>所在学院</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="allButton">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>260</y>
+     <width>141</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪秦川飞影W</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>全部员工</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>150</y>
+     <width>241</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪秦川飞影W</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>点击表头进行按字符串大小排序</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>-20</x>
+     <y>-70</y>
+     <width>1051</width>
+     <height>741</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#frame{
+    background-image:url(:/new/prefix2/others/end.jpg)
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <zorder>frame</zorder>
+  <zorder>ffindlineEdit</zorder>
+  <zorder>mhfindButton</zorder>
+  <zorder>returnButton</zorder>
+  <zorder>scomboBox</zorder>
+  <zorder>tableWidget</zorder>
+  <zorder>allButton</zorder>
+  <zorder>label</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

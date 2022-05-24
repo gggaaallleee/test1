@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>change</class>
+ <widget class="QWidget" name="change">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>962</width>
+    <height>679</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="returnButton">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>480</y>
+     <width>241</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪秦川飞影W</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+   border-radius: 10px;
+   border: 3px groove blue;
+   background-color:rgba(36, 3, 199,0.8);;
+   color:rgba(255, 255, 255,0.5);
+   
+}
+QPushButton:hover{
+   border-radius: 10px;
+   border: 3px groove white;
+   background-color:rgba(36, 3, 199,1);;
+   color:rgb(255, 255, 255);
+}
+QPushButton:pressed{
+   border-radius: 10px;
+   border: 3px groove black;
+   background-color:rgba(110, 209, 255,0.9);;
+   color:rgba(255, 255, 255,0.9);
+}</string>
+   </property>
+   <property name="text">
+    <string>主菜单</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="addButton">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>150</y>
+     <width>211</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪秦川飞影W</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+   border-radius: 10px;
+   border: 3px groove blue;
+   background-color:rgba(36, 3, 199,0.8);;
+   color:rgba(255, 255, 255,0.5);
+   
+}
+QPushButton:hover{
+   border-radius: 10px;
+   border: 3px groove white;
+   background-color:rgba(36, 3, 199,1);;
+   color:rgb(255, 255, 255);
+}
+QPushButton:pressed{
+   border-radius: 10px;
+   border: 3px groove black;
+   background-color:rgba(110, 209, 255,0.9);;
+   color:rgba(255, 255, 255,0.9);
+}</string>
+   </property>
+   <property name="text">
+    <string>增加或删除数据</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="chanButton">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>310</y>
+     <width>211</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>汉仪秦川飞影W</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+   border-radius: 10px;
+   border: 3px groove blue;
+   background-color:rgba(36, 3, 199,0.8);;
+   color:rgba(255, 255, 255,0.5);
+   
+}
+QPushButton:hover{
+   border-radius: 10px;
+   border: 3px groove white;
+   background-color:rgba(36, 3, 199,1);;
+   color:rgb(255, 255, 255);
+}
+QPushButton:pressed{
+   border-radius: 10px;
+   border: 3px groove black;
+   background-color:rgba(110, 209, 255,0.9);;
+   color:rgba(255, 255, 255,0.9);
+}</string>
+   </property>
+   <property name="text">
+    <string>根据工号修改数据</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>961</width>
+     <height>691</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#frame{
+    background-image:url(:/new/1/others/1.jpg)
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <zorder>frame</zorder>
+  <zorder>returnButton</zorder>
+  <zorder>addButton</zorder>
+  <zorder>chanButton</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
